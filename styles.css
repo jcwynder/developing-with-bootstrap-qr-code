@@ -17,7 +17,7 @@ body {
 
 .qrImage {
   width: 190px;
-  display: block;
+  display: flex;
   border-radius: 12px;
   margin-bottom: 12px;
 }
@@ -30,12 +30,4 @@ body {
 .secondaryText {
   text-align: center;
   color: hsl(220, 15%, 55%);
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
