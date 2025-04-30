@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.mainContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  padding: 12px;
+  margin: auto;
+  border-radius: 12px;
+  position: fixed;
+  height: fit-content;
+  inset: 0px;
+}
+
+.qrImage {
+  width: 190px;
+  display: block;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.headingText {
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.secondaryText {
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
