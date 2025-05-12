@@ -11,25 +11,59 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./styles.css" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Frontend Mentor | QR code component</title>
 
   <body>
+  <style>
+    body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+#mainContainer {
+  width: 190px;
+  padding: 12px;
+  margin: auto;
+  border-radius: 12px;
+  position: fixed;
+  height: fit-content;
+  inset: 0px;
+}
+
+#qrImage {
+  width: 190px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+#headingText {
+  color: hsl(218, 44%, 22%);
+} 
+
+#secondaryText {
+  color: hsl(220, 15%, 55%);
+}
+  </style>
+</head>
+<body>
     <!-- Main container for card -->
-   <div class="mainContainer">
+    <div id="mainContainer" class=" container flex-column bg-white align-items-stretch">
     <!--Image container -->
     <div>
-      <img class="qrImage" src="images/image-qr-code.png" alt="A blue and white QR code">
+      <img src="images/image-qr-code.png" alt="A blue and white QR code" id="qrImage" class="img-fluid d-flex">
     </div>
     <!-- Container for heaing text-->
-    <div class="headingText">
+    <div id="headingText" class="text-center">
       <h2>Improve your front-end skills by building projects</h2>
     </div>
     <!-- Container for secondary text -->
-    <div class="secondaryText">
+    <div id="secondaryText" class="text=center">
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
    </div>
   </body>
+</body>
 </html>
+
